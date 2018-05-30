@@ -1,6 +1,9 @@
-# A Simple Django CRM (Customer Relationship Management) Project
+# Create a virtual environment and install packages
+$ pipenv install
 
-This project contains Models and Django REST framework API for a simple CRM web application.
+# Activate the virtual environment
+$ pipenv shell 
 
-You can later check an Angular 5 front-end here.
-
+# Create and migrate the database then run the local development server
+$ python manage.py migrate
+$ python manage.py runserver
